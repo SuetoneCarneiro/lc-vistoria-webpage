@@ -26,7 +26,7 @@ export default function Navbar() {
           <Link href="/" className="text-[#003c8f] font-bold hover:text-blue-700 transition">
             Início
           </Link>
-          <Link href="/" className="text-[#003c8f] font-bold hover:text-blue-700 transition">
+          <Link href="#servicos" className="text-[#003c8f] font-bold hover:text-blue-700 transition">
             Serviços
           </Link>
           <Link href="#sobre-nos" className="text-[#003c8f] font-bold hover:text-blue-700 transition">
@@ -58,6 +58,9 @@ export default function Navbar() {
         <div className="md:hidden bg-white px-6 pb-6 pt-2 shadow-md flex flex-col gap-4">
           <Link href="/" onClick={() => setIsOpen(false)} className="text-[#003c8f] font-bold text-lg">
             Início
+          </Link>
+          <Link href="#servicos" onClick={() => setIsOpen(false)} className="text-[#003c8f] font-bold text-lg">
+            Serviços
           </Link>
           <Link href="#sobre-nos" onClick={() => setIsOpen(false)} className="text-[#003c8f] font-bold text-lg">
             Sobre nós
