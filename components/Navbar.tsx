@@ -9,34 +9,37 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full flex flex-col z-50">
-      <nav className="bg-white w-full px-4 py-2 flex justify-between items-center shadow-sm relative">
+    <header className="w-full flex flex-col z-50 shadow-md sticky top-0">
+      <nav className="bg-[#003c8f] w-full px-4 py-2 flex justify-between items-center shadow-sm relative">
         <Link href="/" className="flex-shrink-0">
           <Image 
-            src="/img/lc-logo-bg-white.png" 
+            src="/img/lc-logo-text-white.png" 
             alt="Logo LC Vistoria Veicular" 
             width={300} 
             height={180} 
-            className="object-contain"
+            className="w-48 md:w-[280px] h-auto object-contain"
           />
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/" className="text-[#003c8f] font-bold hover:text-blue-700 transition">
+          <Link href="/" className="text-white font-bold hover:text-yellow-400 transition">
             Início
           </Link>
-          <Link href="#servicos" className="text-[#003c8f] font-bold hover:text-blue-700 transition">
+          <Link href="#servicos" className="text-white font-bold hover:text-yellow-400 transition">
             Serviços
           </Link>
-          <Link href="#sobre-nos" className="text-[#003c8f] font-bold hover:text-blue-700 transition">
+          <Link href="#localizacao" onClick={() => setIsOpen(false)} className="text-white font-bold hover:text-yellow-400 transition">
+            Localização
+          </Link>
+          <Link href="#sobre-nos" className="text-white font-bold hover:text-yellow-400 transition">
             Sobre nós
           </Link>
           <a 
             href="https://wa.me/5587999526208" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="flex items-center gap-2 bg-[#003c8f] text-white px-5 py-2.5 rounded-full font-bold hover:bg-blue-800 transition shadow-md"
+            className="flex items-center gap-2 bg-[#003c8f] text-white px-5 py-2.5 rounded-full font-bold hover:bg-green-500 transition shadow-lg"
           >
             <FaWhatsapp size={22} />
             Entrar em contato
@@ -45,7 +48,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Toggle Button */}
         <button 
-          className="md:hidden text-[#003c8f] focus:outline-none" 
+          className="md:hidden text-white focus:outline-none" 
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
         >
@@ -61,6 +64,9 @@ export default function Navbar() {
           </Link>
           <Link href="#servicos" onClick={() => setIsOpen(false)} className="text-[#003c8f] font-bold text-lg">
             Serviços
+          </Link>
+          <Link href="#localizacao" onClick={() => setIsOpen(false)} className="text-[#003c8f] font-bold text-lg">
+            Localização
           </Link>
           <Link href="#sobre-nos" onClick={() => setIsOpen(false)} className="text-[#003c8f] font-bold text-lg">
             Sobre nós

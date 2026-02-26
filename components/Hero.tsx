@@ -19,7 +19,7 @@ export default function Hero() {
             href="https://wa.me/5587999526208" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="flex items-center gap-3 bg-[#003c8f] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-800 transition shadow-lg mt-4"
+            className="flex items-center gap-3 bg-[#003c8f] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-500 transition shadow-lg mt-4"
           >
             <FaWhatsapp size={26} />
             Entrar em contato
@@ -28,9 +28,9 @@ export default function Hero() {
 
         {/* Right side */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-          <div className="w-full max-w-lg aspect-[4/3] bg-gray-100 rounded-2xl shadow-xl flex items-center justify-center border-2 border-gray-200">
+          <div className="w-full max-w-lg bg-gray-100 rounded-2xl shadow-xl flex items-center justify-center border-2 border-gray-200">
             <Image 
-                src="/img/caminhao1.jpg" 
+                src="/img/carro-na-lc.png" 
                 alt="Carro para vistoria" 
                 width={600} 
                 height={450} 
