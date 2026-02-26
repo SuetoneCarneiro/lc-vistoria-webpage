@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import Location from "@/components/Location";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
+import FloatingButtons from "@/components/FloatingButtons";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <section id="localizacao"><Location /></section>
       <section id="sobre-nos"><About /></section>
       <Footer />
+      <FloatingButtons />
     </main>
   );
 }
