@@ -8,7 +8,6 @@ export default function Services() {
     "Mudança de categoria",
     "Segunda via de CRV (DUT)",
     "Segunda via de CRLV (DUAL)",
-    "Vistoria Espectral (Cautelar)",
     "E muito mais..."
   ];
 
