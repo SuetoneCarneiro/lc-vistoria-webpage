@@ -62,7 +62,7 @@ export default function Footer() {
         <div className="w-full h-px bg-gray-200"></div>
 
         <div className="text-center text-sm text-gray-500">
-          Desenvolvido por <span className="font-bold text-[#003c8f]">Suetone Carneiro</span>
+          Desenvolvido por <a href="https://suetone.dev.br" target='_blank'><span className="font-bold text-[#003c8f]">Suetone Carneiro</span></a>
         </div>
 
       </div>
