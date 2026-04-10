@@ -26,10 +26,10 @@ export default function Footer() {
           <div className="flex-1 text-center flex flex-col items-center justify-center">
             <FaMapMarkerAlt className="text-[#003c8f] mb-2" size={20} />
             <p className="text-gray-700 font-medium mb-1">
-              Rua 29 de Janeiro, nº 164
+              BR 316, Km 57
             </p>
             <p className="text-gray-700 font-medium mb-2">
-              Centro de Trindade-PE
+              Em Trindade, Pernambuco
             </p>
             <p className="text-blue-900 font-bold text-lg tracking-wide">
               Faça-nos uma visita!

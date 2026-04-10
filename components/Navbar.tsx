@@ -84,7 +84,7 @@ export default function Navbar() {
       {/* Yellow advertisement */}
       <div className="bg-yellow-400 w-full py-2.5 text-center px-4">
         <span className="text-[#003c8f] font-extrabold uppercase tracking-wide text-sm md:text-base">
-          Em breve em novo endereço!
+          AGORA em novo endereço: BR 316, Km 57 (Ao lado do SUCATÃO DE SEVERINO)
         </span>
       </div>
     </header>
