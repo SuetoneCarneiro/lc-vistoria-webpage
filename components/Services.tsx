@@ -17,7 +17,7 @@ export default function Services() {
         
         {/* Title */}
         <h2 className="text-3xl md:text-4xl font-black text-white mb-10 text-center tracking-wide">
-          Nossos Serviços
+          Fazemos vistoria para:
         </h2>
         
         {/* Services */}

@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="flex-1 text-center flex flex-col items-center justify-center">
             <FaMapMarkerAlt className="text-[#003c8f] mb-2" size={20} />
             <p className="text-gray-700 font-medium mb-1">
-              BR 316, Km 57
+              BR 316, Km 57, sentido Araripina
             </p>
             <p className="text-gray-700 font-medium mb-2">
               Em Trindade, Pernambuco
